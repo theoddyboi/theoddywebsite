@@ -95,3 +95,19 @@ nav ul li a{
         transform: translateY(0px);
     }
 }
+.youtube-btn {
+    background-image: none; /* Remove gradient */
+    background-color: #ff0000; /* YouTube's red */
+    color: #fff;
+    padding: 15px 80px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.youtube-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    border-top-right-radius: 30px;
+}
