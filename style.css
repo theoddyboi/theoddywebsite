@@ -96,18 +96,17 @@ nav ul li a{
     }
 }
 .youtube-btn {
-    background-image: none; /* Remove gradient */
-    background-color: #ff0000; /* YouTube's red */
+    background-image: linear-gradient(45deg, #ee2d38, #ed348f); /* Pink to red gradient */
     color: #fff;
-    padding: 15px 80px;
+    padding: 14px 40px;
     border-radius: 30px;
     border-top-right-radius: 0;
-    font-size: 16px;
-    font-weight: bold;
     transition: 0.5s;
+    font-weight: bold;
+    text-align: center;
 }
 
 .youtube-btn:hover {
-    background-color: #cc0000; /* Darker red on hover */
+    background-image: linear-gradient(45deg, #ed348f, #ee2d38); /* Reverse gradient on hover */
     border-top-right-radius: 30px;
 }
